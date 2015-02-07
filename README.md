@@ -14,9 +14,10 @@ gathering and the trip estimate.
 5. Ola will text ride details to individuals.
 6. At last trip bill will be paid by Host.
 
-................Ola Trips............
-● Smartly Routed
-● Powered by Ola
-● Pay less
-● Secured and reliable
-........................................
+Ola Trips
+
+- Smartly Routed
+- Powered by Ola
+- Pay less
+- Secured and reliable
+
