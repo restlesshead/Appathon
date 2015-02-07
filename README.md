@@ -1,5 +1,5 @@
 # Appathon
-Ola Trips:Enjoy Hassle free trips with Ola
+@Ola Trips:Enjoy Hassle free trips with Ola
 ------------------------------------------------------------
 An Affordable way to plan rides for parties/team gathering. Giving participants access to friendly rides at the tap of a button.
 
