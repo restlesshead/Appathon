@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="UnknownIdInLayout,HardcodedText" >
+
+    <RelativeLayout
+        android:id="@+id/ridebg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/bgs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+
+        <RelativeLayout
+            android:id="@+id/bottomlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/toplayout"
+            android:layout_marginTop="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/friLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:background="#9000" >
+
+                <TextView
+                    android:id="@+id/invite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:paddingLeft="5dp"
+                    android:text="Invite"
+                    android:textColor="#D4D828"
+                    android:textSize="22sp" />
+
+                <HorizontalScrollView
+                    android:id="@+id/scroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/invite"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:scrollbars="none" >
+
+                    <LinearLayout
+                        android:id="@+id/friendsLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/toplayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonLayout"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/destination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:paddingLeft="5dp"
+                android:text="Destination"
+                android:textColor="#D4D828"
+                android:textSize="22sp" />
+
+            <fragment
+                android:id="@+id/map_view"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/destination" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/map_view"
+                android:layout_alignLeft="@+id/map_view"
+                android:layout_alignRight="@+id/map_view"
+                android:layout_alignTop="@+id/map_view"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/map_pointer" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/map_view"
+                android:background="#D4D828"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/txtDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:hint="Date"
+                    android:inputType="none"
+                    android:textColor="#000000" >
+
+                    <requestFocus>
+                    </requestFocus>
+                </EditText>
+
+                <EditText
+                    android:id="@+id/txtTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:hint="time"
+                    android:inputType="none"
+                    android:textColor="#000000" >
+
+                    <requestFocus>
+                    </requestFocus>
+                </EditText>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <Button
+                android:id="@+id/accept"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button1"
+                android:text="Accept"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" 
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/reject"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button1"
+                android:text="Reject"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

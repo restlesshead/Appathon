@@ -1,0 +1,195 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="whiteLargeText18">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="whiteLargeText">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="whiteMedText14">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="timeRemainingFontRed11">
+        <item name="android:textColor">#ff0101</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="lightGreySmallText11">
+        <item name="android:textColor">#979797</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="lightGreySmallText12">
+        <item name="android:textColor">#848484</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="lightGreyText14">
+        <item name="android:textColor">#848484</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="lightGreyText16">
+        <item name="android:textColor">#848484</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="lightGreyText20">
+        <item name="android:textColor">#848484</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="lightGreyText24">
+        <item name="android:textColor">#848484</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="lightGreyText30">
+        <item name="android:textColor">#848484</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="lightGreyTextIcon">
+        <item name="android:textColor">#848484</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="darkGreySmallText11">
+        <item name="android:textColor">#292929</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="darkGreySmallText12">
+        <item name="android:textColor">#292929</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="darkGreyMediumText14">
+        <item name="android:textColor">#292929</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="productTitle">
+        <item name="android:textColor">#292929</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="darkGreyMediumText16">
+        <item name="android:textColor">#292929</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">#848484</item>
+    </style>
+
+    <style name="medGreyMediumText16">
+        <item name="android:textColor">#848484</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="darkGreyLargeText18">
+        <item name="android:textColor">#292929</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="tappableLargeText18">
+        <item name="android:textColor">#b12704</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="tappableLargeText24">
+        <item name="android:textColor">#b12704</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="tappableSmallText14">
+        <item name="android:textColor">#b12704</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="darkGreyLargeText20">
+        <item name="android:textColor">#292929</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="darkGreyLargeText24">
+        <item name="android:textColor">#292929</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="darkGreyLargeText28">
+        <item name="android:textColor">#292929</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="darkGreyExtraLargeText40">
+        <item name="android:textColor">#292929</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="medGreyLargeText18">
+        <item name="android:textColor">#848484</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="medGreyNormalText14">
+        <item name="android:textColorHint">#848484</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#292929</item>
+    </style>
+
+    <style name="redMediumText14">
+        <item name="android:textColor">#ff0101</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="orangeHeaderStrip">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">6dp</item>
+        <item name="android:background">#ff8a00</item>
+    </style>
+
+    <style name="loco_small_button">
+        <item name="android:minWidth">80dp</item>
+        <item name="android:maxHeight">40dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="thinGreyLine">
+        <item name="android:background">#d5d5d5</item>
+    </style>
+
+    <style name="tappableText">
+        <item name="android:textColor">#b12704</item>
+    </style>
+
+    <style name="orangeVerticalStrip">
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:background">#ff9600</item>
+    </style>
+
+</resources>

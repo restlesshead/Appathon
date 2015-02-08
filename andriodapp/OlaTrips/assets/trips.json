@@ -1,0 +1,57 @@
+{
+    "_id": "54d66f071603c8b5a4f64fdf",
+    "index": 0,
+    "guid": "a72a25ed-9444-4c14-97cc-0da0c1c9c7e8",
+    "trip_name": "Team Outing",
+    "trip_destination": "Cascade Resort",
+    "trip_intialtor": 8080,
+    "trip_planned_attendies": 23,
+    "trip_accepted_attendies": 10,
+    "trip_numberof_cabs_alloted": 14,
+    "price_estimate": 1000,
+    "dest_latitude": -6.627704,
+    "dest_longitude": 141.012297,
+    "dest_date_time": "2014-05-23T19:14:29 -06:-30",
+    "trip_cabs_details": [
+        {
+            "display_name": "Mini",
+            "low_estimate": 130,
+            "high_estimate": 190,
+            "actual_cost": 140,
+            "duration": 60,
+            "distance": 5.34,
+            "capacity": 4,
+            "cab_id": 1
+        },
+        {
+            "display_name": "Sedan",
+            "low_estimate": 230,
+            "high_estimate": 290,
+            "actual_cost": 140,
+            "duration": 60,
+            "distance": 5.34,
+            "capacity": 4,
+            "cab_id": 2
+        },
+        {
+            "display_name": "Prime",
+            "low_estimate": 330,
+            "high_estimate": 350,
+            "actual_cost": 140,
+            "duration": 60,
+            "distance": 5.34,
+            "capacity": 4,
+            "cab_id": 3
+        },
+        {
+            "display_name": "Auto",
+            "low_estimate": 400,
+            "high_estimate": 320,
+            "actual_cost": 140,
+            "duration": 60,
+            "distance": 5.34,
+            "capacity": 4,
+            "cab_id": 3
+        }
+    ]
+}
