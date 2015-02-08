@@ -1,0 +1,50 @@
+{
+    "trip_details" : [
+    
+    {
+    "_id": "54d66f07eb9780c1ad7d8dd7",
+    "index": 1,
+    "guid": "a88ee85e-46d7-47b5-8a2c-b5c0f1c9601c",
+    "trip_name": "Birth Day Party",
+    "trip_destination": "Leela Palece",
+    "trip_intialtor": 8080,
+    "trip_planned_attendies": 40,
+    "trip_accepted_attendies": 21,
+    "trip_numberof_cabs_alloted": 8,
+    "price_estimate": 6543,
+    "dest_latitude": -11.663734,
+    "dest_longitude": 69.059303,
+    "dest_date_time": "2014-08-31T20:43:51 -06:-30"
+  },
+  {
+    "_id": "54d66f071603c8b5a4f64fdf",
+    "index": 0,
+    "guid": "a72a25ed-9444-4c14-97cc-0da0c1c9c7e8",
+    "trip_name": "Team Outing",
+    "trip_destination": "Cascade Resort",
+    "trip_intialtor": 8080,
+    "trip_planned_attendies": 23,
+    "trip_accepted_attendies": 10,
+    "trip_numberof_cabs_alloted": 14,
+    "price_estimate": 1000,
+    "dest_latitude": -6.627704,
+    "dest_longitude": 141.012297,
+    "dest_date_time": "2014-05-23T19:14:29 -06:-30"
+  },
+  {
+    "_id": "54d66f07f621a41fbca673db",
+    "index": 2,
+    "guid": "d3862eea-d662-412d-933e-b095e5cb4320",
+    "trip_name": "Marriage",
+    "trip_destination": "Cascade Resort",
+    "trip_intialtor": 213456,
+    "trip_planned_attendies": 23,
+    "trip_accepted_attendies": 10,
+    "trip_numberof_cabs_alloted": 14,
+    "price_estimate": 1000,
+    "dest_latitude": 36.49005,
+    "dest_longitude": 167.477295,
+    "dest_date_time": "2015-01-10T09:56:42 -06:-30"
+  }
+]
+}

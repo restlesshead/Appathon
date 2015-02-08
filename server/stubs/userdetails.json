@@ -1,0 +1,52 @@
+{
+    "_id": "54d66f071603c8b5a4f64fdf",
+    "index": 0,
+    "guid": "a72a25ed-9444-4c14-97cc-0da0c1c9c7e8",
+    "trip_name": "Team Outing",
+    "trip_destination": "Cascade Resort",
+    "trip_intialtor": 8080,
+    "trip_planned_attendies": 23,
+    "trip_accepted_attendies": 10,
+    "trip_numberof_cabs_alloted": 14,
+    "price_estimate": 1000,
+    "dest_latitude": -6.627704,
+    "dest_longitude": 141.012297,
+    "dest_date_time": "2014-05-23T19:14:29 -06:-30",
+    "trip_user_details": [
+        {
+            "user_name": "Sreekanth R V",
+            "user_id": "9538312782",
+            "user_latitude": 190,
+            "user_longitude": 140,
+            "user_accepted_invite":"YES",
+            "number_of_travellers":2
+           
+           },
+        {
+           "user_name": "Mohan Y",
+            "user_id": "9538312783",
+            "user_latitude": 190,
+            "user_longitude": 140,
+            "user_accepted_invite":"NO",
+             "number_of_travellers":4
+        
+        },
+        {
+            "user_name": "Venkatesh K",
+            "user_id": "9538312784",
+            "user_latitude": 190,
+            "user_longitude": 140,
+            "user_accepted_invite":"NO",
+             "number_of_travellers":3
+           },
+        {
+           "user_name": "Sasikanth G",
+            "user_id": "9538312785",
+            "user_latitude": 190,
+            "user_longitude": 140,
+            "user_accepted_invite":"YES",
+             "number_of_travellers":1
+           
+        }
+    ]
+}
